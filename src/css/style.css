@@ -1,5 +1,5 @@
 :root {
-    --background-color: #1d1f26;
+    --background-color: #1d1f26; 
     --primary-color: #fff;
     --secondary-background-color: #2a2e35;
     --button-bg-color: #e63946;
@@ -22,12 +22,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-family);
-    background-color: var(--background-color);
-    background-image: url('https://i.pinimg.com/564x/7e/2f/fa/7e2ffa3fb9a8cce2caaf4307548698fe.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #4A586E; 
     color: var(--primary-color);
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -91,7 +89,3 @@ form {
     flex-direction: column;
     align-items: center;
 }
-
-
-
-

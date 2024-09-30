@@ -8,8 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WELCOME TO ACTIVITY 1</title>
-    <link rel="stylesheet" href="src/css/styles.css">
+    <title>IT ELEC 2</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -24,7 +24,7 @@
         </div>
 
         <div class="column">
-            <h1> REGISTRATION </h1>
+            <h1> REGISTER </h1>
             <form action="dashboard/admin/authentication/admin-class.php" method="POST">
                 <input type="hidden" name="csrf_token" value="<?php echo $csrf_token ?>">
                 <input type="text" name="username" placeholder="Enter Username" required>
